@@ -22,34 +22,36 @@ h3 {
   .container {
     background: hsl(0, 0%, 90%);
     border-radius: 5px;
-    padding: 30px 10px 30px 0px;
+    /* padding: 30px 10px 30px 0px; */
     display: grid;
     grid-template-columns: auto;
     justify-items: center;
+    align-items: center;
   }
   
   #tribute-info {
     font-size: 20px;  
     display: grid;
-    justify-items: center;
     grid-template-columns: 1fr;
     width: 35%;
+    position: relative;
   }
   
   #main {
+   font-family: system-ui;
    display: grid;
    justify-items: center;
-   padding: 20px 5px;
+   padding: 20px 0px;
   }
   
   #img-div {
     display: grid;
     background: white;
     justify-items: center;
-    width: 95vw;
+    width: 94vw;
     grid-template-columns: 1fr;
     grid-row-gap: 15px;
-    padding: 0px 0px 15px 0px;
+    padding-bottom: 15px;
   }
   
   #img-caption {
@@ -59,17 +61,4 @@ h3 {
   li {
     justify-items: center;
     padding: 10px;
-  }
-  
-  p {
-    font-family: system-ui;
-    /*background: linear-gradient(to bottom,
-      $brandColor,
-      darken($brandColor, 15%)
-    );*/
-    color: black;
-    height: 100vh;
-    margin: 0;
-    display: grid;
-    place-items: center;
   }
